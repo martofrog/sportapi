@@ -1,0 +1,53 @@
+# /api/v1/stats/subevent/{subeventId}
+
+{
+    "eventId": 2457,
+    "eventName": "English Premier League Matches",
+    "subeventId": 87010376,
+    "subeventName": "Everton v Man Utd",
+    "subeventType": "match",
+    "inRunning": true,
+    "startTime": "20161204T160000Z",
+    "venueName": "White Hart Lane",
+    "history": {
+        "home": {
+            "matches": [
+                {
+                    "result": "Lost",
+                    "homeTeamScore": 0,
+                    "homeTeamName": "West Ham United",
+                    "homeTeamShortName": "WHU",
+                    "awayTeamScore": 3,
+                    "awayTeamName": "Southampton",
+                    "awayTeamShortName": "SOU"
+                },
+                {
+                    "result": "Draw",
+                    "homeTeamScore": 1,
+                    "homeTeamName": "West Ham United",
+                    "homeTeamShortName": "WHU",
+                    "awayTeamScore": 1,
+                    "awayTeamShortName": "MID"
+                }
+            ]
+        },
+        "away": {
+            "matches": [
+                {
+                   "result": "Won",
+                   "homeTeamScore": 1,
+                   "homeTeamName": "Middlesbrough",
+                   "awayTeamScore": 2,
+                   "awayTeamName": "Tottenham Hotspur"
+                },
+                {
+                   "result": "Won",
+                   "homeTeamScore": 2,
+                   "homeTeamName": "Tottenham Hotspur",
+                   "awayTeamScore": 0,
+                   "awayTeamName": "Manchester City"
+                }
+            ]
+        }
+    }
+}
