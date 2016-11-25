@@ -1,0 +1,114 @@
+# /api/v1/stats/subevent/{subeventId}
+
+{
+    "eventId": 2457,
+    "eventName": "English Premier League Matches",
+    "subeventId": 87010376,
+    "subeventName": "Everton v Man Utd",
+    "subeventType": "match",
+    "inRunning": true,
+    "startTime": "20161204T160000Z",
+	"statsInfo": {
+		"participants": {
+			"homeTeam": {
+				"name": "Everton",
+				"shortName": "Everton",
+				"history": {
+					"matches": [
+						{
+							"result": "Lost",
+							"homeTeamScore": 0,
+							"homeTeamName": "West Ham United",
+							"homeTeamShortName": "WHU",
+							"awayTeamScore": 3,
+							"awayTeamName": "Southampton",
+							"awayTeamShortName": "SOU"
+						},
+						{
+							"result": "Draw",
+							"homeTeamScore": 1,
+							"homeTeamName": "West Ham United",
+							"homeTeamShortName": "WHU",
+							"awayTeamScore": 1,
+							"awayTeamShortName": "MID"
+						}
+					]
+				},
+				"squad": [
+					{
+						"playerName": "Tom Heaton",
+						"playerForename": "Tom",
+						"playerSurname": "Heaton",
+						"isSubstitution": "No",
+						"squadNumber": 1,
+						"isCaptain": "Yes"
+					},
+					{
+						"playerName": "Michael Keane",
+						"playerForename": "Michael",
+						"playerSurname": "Keane",
+						"isSubstitution": "No",
+						"squadNumber": 5,
+						"isCaptain": "No"
+					},
+					{
+						"playerName": "Michael Kightly",
+						"playerForename": "Michael",
+						"playerSurname": "Kightly",
+						"isSubstitution": "Yes",
+						"squadNumber": 11,
+						"isCaptain": "No"
+					}
+				]
+			},
+			"awayTeam": {
+				"name": "Manchester United",
+				"shortName": "Man Utd",
+				"history": {
+					"matches": [
+						{
+						   "result": "Won",
+						   "homeTeamScore": 1,
+						   "homeTeamName": "Middlesbrough",
+						   "awayTeamScore": 2,
+						   "awayTeamName": "Tottenham Hotspur"
+						},
+						{
+						   "result": "Won",
+						   "homeTeamScore": 2,
+						   "homeTeamName": "Tottenham Hotspur",
+						   "awayTeamScore": 0,
+						   "awayTeamName": "Manchester City"
+						}
+					]
+				},
+				"squad": [
+					{
+						"playerName": "Darren Fletcher",
+						"playerForename": "Darren",
+						"playerSurname": "Fletcher",
+						"isSubstitution": "No",
+						"squadNumber": 24,
+						"isCaptain": "Yes"
+					},
+					{
+						"playerName": "James Morrison",
+						"playerForename": "James",
+						"playerSurname": "Morrison",
+						"isSubstitution": "No",
+						"squadNumber": 7,
+						"isCaptain": "No"
+					},
+					{
+						"playerName": "Jonas Olsson",
+						"playerForename": "Jonas",
+						"playerSurname": "Olsson",
+						"isSubstitution": "Yes",
+						"squadNumber": 3,
+						"isCaptain": "No"
+					}
+				]
+			}
+		}
+	}
+}
