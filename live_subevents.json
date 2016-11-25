@@ -1,0 +1,47 @@
+# /api/v1/live/subevent/{subeventId}
+
+{
+    "eventId": 2457,
+    "eventName": "English Premier League Matches",
+    "subeventId": 87010376,
+    "subeventName": "Everton v Man Utd",
+    "subeventType": "match",
+    "inRunning": true,
+    "startTime": "20161204T160000Z",
+    "liveInfo":{
+		"venueName": "White Hart Lane",
+		"participants":{
+			"homeTeam":{
+				"name": "Everton",
+				"shortName": "Everton",
+				"score": 1,
+				"incidents": [
+					{
+						"time": 24,
+						"type": "GOAL_SCORED",
+						"description": "Mike Antonio"
+					},
+					{
+						"time": 30,
+						"type": "RED_CARD",
+						"description": "Mike Antonio"
+					}
+				]
+			},
+			"awayTeam":{
+				"name": "Manchester United",
+				"shortName": "Man Utd",
+				"score": 0,
+				"incidents": []
+			}
+		},
+		"liveSummary": {
+			"status": "FullTime",
+			"currentTime": 97,
+			"score": {
+				"homeScore": 1,
+				"awayScore": 0
+			}
+		}
+	}
+}
