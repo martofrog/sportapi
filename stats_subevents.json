@@ -9,7 +9,6 @@
     "inRunning": true,
     "startTime": "20161204T160000Z",
 	"statsInfo": {
-		"venueName": "White Hart Lane",
 		"participants": {
 			"homeTeam": {
 				"name": "Everton",
@@ -34,7 +33,33 @@
 							"awayTeamShortName": "MID"
 						}
 					]
-				}
+				},
+				"squad": [
+					{
+						"playerName": "Tom Heaton",
+						"playerForename": "Tom",
+						"playerSurname": "Heaton",
+						"isSubstitution": "No",
+						"squadNumber": 1,
+						"isCaptain": "Yes"
+					},
+					{
+						"playerName": "Michael Keane",
+						"playerForename": "Michael",
+						"playerSurname": "Keane",
+						"isSubstitution": "No",
+						"squadNumber": 5,
+						"isCaptain": "No"
+					},
+					{
+						"playerName": "Michael Kightly",
+						"playerForename": "Michael",
+						"playerSurname": "Kightly",
+						"isSubstitution": "Yes",
+						"squadNumber": 11,
+						"isCaptain": "No"
+					}
+				]
 			},
 			"awayTeam": {
 				"name": "Manchester United",
@@ -56,7 +81,33 @@
 						   "awayTeamName": "Manchester City"
 						}
 					]
-				}
+				},
+				"squad": [
+					{
+						"playerName": "Darren Fletcher",
+						"playerForename": "Darren",
+						"playerSurname": "Fletcher",
+						"isSubstitution": "No",
+						"squadNumber": 24,
+						"isCaptain": "Yes"
+					},
+					{
+						"playerName": "James Morrison",
+						"playerForename": "James",
+						"playerSurname": "Morrison",
+						"isSubstitution": "No",
+						"squadNumber": 7,
+						"isCaptain": "No"
+					},
+					{
+						"playerName": "Jonas Olsson",
+						"playerForename": "Jonas",
+						"playerSurname": "Olsson",
+						"isSubstitution": "Yes",
+						"squadNumber": 3,
+						"isCaptain": "No"
+					}
+				]
 			}
 		}
 	}
