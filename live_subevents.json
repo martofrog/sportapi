@@ -19,12 +19,12 @@
 					{
 						"time": 24,
 						"type": "GOAL_SCORED",
-						"description": "Mike Antonio",
+						"description": "Mike Antonio"
 					},
 					{
 						"time": 30,
 						"type": "RED_CARD",
-						"description": "Mike Antonio",
+						"description": "Mike Antonio"
 					}
 				]
 			},
@@ -37,7 +37,7 @@
 		},
 		"liveSummary": {
 			"status": "FullTime",
-			"currentTime": 97
+			"currentTime": 97,
 			"score": {
 				"homeScore": 1,
 				"awayScore": 0
